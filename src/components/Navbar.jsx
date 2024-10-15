@@ -10,7 +10,7 @@ function Navbar() {
     };
 
     return (
-        <header className="bg-white py-3 w-full z-50 transition-all duration-300">
+        <header className="bg-white py-3 w-full z-50 transition-all duration-300 navbar">
             <nav className="flex justify-between items-center w-[94%] h-12 mx-auto">
                 <Link to="/">
                     <img
@@ -34,7 +34,7 @@ function Navbar() {
                                     <>
                                         {item.name}
                                         <div
-                                            className={`bg-orange-500 h-[2px] ${isActive ? "w-full" : "w-0"} group-hover:w-full transition-all duration-500`}
+                                            className={`bg-[#ffa75c] h-[2px] ${isActive ? "w-full" : "w-0"} group-hover:w-full transition-all duration-500`}
                                         ></div>
                                     </>
                                 )}
@@ -60,7 +60,7 @@ function Navbar() {
                             <NavLink
                                 to={item.path}
                                 className={({ isActive }) =>
-                                    `block text-center py-2 ${isActive ? "text-orange-500" : "text-black"}`
+                                    `block text-center py-2 ${isActive ? "text-[#ffa75c]" : "text-black"}`
                                 }
                                 onClick={() => setMenuOpen(false)} // Close menu on selection
                             >

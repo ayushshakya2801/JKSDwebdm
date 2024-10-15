@@ -1,6 +1,7 @@
 
 import './App.css'
 import Navbar from './components/Navbar'
+import FloatingContactButton from './components/FloatingContactButton'
 import Footer from './components/Footer'
 import { Outlet, useLocation } from 'react-router-dom'
 function App() {
@@ -8,10 +9,11 @@ function App() {
   const isNotFoundPage = location.pathname === '/404' || location.pathname === '*';
   return (
     <>
-      <div className='bg-gray-300'>
+      <div >
       {!isNotFoundPage && <Navbar />}
       <Outlet />
       {!isNotFoundPage && <Footer />}
+      {!isNotFoundPage && <FloatingContactButton />}
       </div>
     </>
   )
