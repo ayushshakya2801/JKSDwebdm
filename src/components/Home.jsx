@@ -1,11 +1,12 @@
 import React from 'react'
-import Slider from './Slider'
+
 
 function Home() {
   return (
     <div>
-      
-      <Slider/>
+      <div className='bg-gray-500'>
+        <h1 className='text-3xl text-amber-600'>Home</h1>
+      </div>
     </div>
   )
 }
