@@ -10,7 +10,8 @@ function Navbar() {
     };
 
     return (
-        <header className="bg-white py-3 w-full z-50 transition-all duration-300 navbar">
+        <header className="bg-white py-3 w-full z-50 transition-all duration-300 sticky top-0">
+
             <nav className="flex justify-between items-center w-[94%] h-12 mx-auto">
                 <Link to="/">
                     <img
