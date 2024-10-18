@@ -10,6 +10,7 @@ import PageNotFound from './pages/PageNotFound/PageNotFound.jsx'
 import WebDev from './pages/WebDevelopment/WebDev.jsx'
 import DigMarketing from './pages/DigitalMarketing/DigitalMarketing.jsx'
 
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App />}>
