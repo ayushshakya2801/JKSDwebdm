@@ -77,7 +77,7 @@ function ContactUs() {
 
           
   {/* form  */}
-            <div className="flex flex-col lg:flex-row justify-between lg:space-x-6 my-10 space-y-6 lg:space-y-0 bg-sky bg-[#0A528E] w-full max-w-2xl p-8 sm:p-12 rounded-xl shadow-lg text-white overflow-hidden">
+            <div className="flex flex-col lg:flex-row justify-between lg:space-x-6 my-10 space-y-6 lg:space-y-0 bg-sky bg-[#0A528E] w-full max-w-3xl p-8 sm:p-12 rounded-xl shadow-lg text-white overflow-hidden">
               <div className="flex flex-col space-y-8 justify-between lg:w-1/2">
                 <div>
                   <h1 className="pt-10 font-bold text-4xl tracking-wide text-[#ffa75c]">
@@ -212,6 +212,7 @@ function ContactUs() {
         </div>
         {/* Setting Map */}
         <div className=" md:flex justify-center items-center md:mr-10 bg-gray-300  w-full  overview-hidden">
+
   <iframe
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.117954875751!2d77.374172774094!3d28.626226684369538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5d4a8d2c129%3A0xc7e167387b2afd44!2sJKSD%20Infotech%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1725521303176!5m2!1sen!2sin"
     width="75%"
