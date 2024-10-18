@@ -1,11 +1,17 @@
 import React from 'react'
+import Services from './Services'
+import Growth from './Growth'
+import About from './About'
+import Review from './Review'
+
 
 function Home() {
   return (
     <div>
-      <div className='bg-gray-500'>
-        <h1 className='text-3xl text-amber-600'>Home</h1>
-      </div>
+      <Growth />
+      <Services />
+      <About />
+      <Review />
     </div>
   )
 }
