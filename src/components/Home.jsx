@@ -2,16 +2,16 @@ import React from 'react'
 import Services from './Services'
 import Growth from './Growth'
 import About from './About'
-import Review from './Review'
+import ReviewSection from './ReviewSection'
 
 
 function Home() {
   return (
-    <div>
+    <div className='w-full overflow-hidden'>
       <Growth />
       <Services />
       <About />
-      <Review />
+      <ReviewSection />
     </div>
   )
 }

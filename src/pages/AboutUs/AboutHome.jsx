@@ -6,7 +6,7 @@ function AboutHome() {
       <img
         src="./public/AboutUs img\about us home.png"
         alt="Image is not showing"
-        className="w-full h-[400px]"
+        className="w-full h-[300px]"
       />
       <div className="absolute inset-0 flex flex-col items-center justify-center">
          {/* <h2 className="text-white text-2xl md:text-6xl font-bold "> A b o u t U s </h2>    */}

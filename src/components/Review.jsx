@@ -11,7 +11,6 @@ const Review = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 1000,
         autoplaySpeed: 5000,
         pauseOnHover: false,
         centerMode: false,

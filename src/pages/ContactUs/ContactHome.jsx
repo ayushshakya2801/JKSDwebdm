@@ -3,7 +3,7 @@ import React from 'react'
 function ContactHome() {
   return (
     <div className="relative">
-    <img src="./Public/contactus img/contactushome.png" alt="Image is not showing" className="w-full h-[400px]" />
+    <img src="./Public/contactus img/contactushome.png" alt="Image is not showing" className="w-full h-[300px]" />
     <div className="absolute inset-0 flex flex-col items-center justify-center">
         <h2 className="text-white text-2xl md:text-6xl font-bold pb-3">
             C o n t a c t   U s
