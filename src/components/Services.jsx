@@ -9,19 +9,19 @@ function Services() {
   return (
     <div className="mb-5">
       <div>
-      <h1 className="mt-5 md:mt-0 text-4xl md:text-5xl text-[#ffa75c] font-bold  text-center  ">
+      <h1 className="mt-5 md:mt-0 text-4xl md:text-5xl text-[#08528e] font-bold  text-center font-philosopher ">
               Services We Provide
             </h1>
         {/* web development */}
         <div className=" flex flex-col-reverse  mt-5 md:mt-10 md:ml-[50px] md:flex-row items-center">
           {/* images */}
-          <div className=" w-[200px] md:w-[400px]  md:ml-[100px]">
+          <div className=" w-[300px] md:w-[400px]  md:ml-[100px]">
             <img className="rounded-lg " src="./images/webdev.png" alt="" />
           </div>
           {/* content */}
-          <div className="w-[100%] md:w-[600px]  text-center md:ml-[60px] md:mt-[40px] mb-7 ">
+          <div className="w-[100%] md:w-[800px] text-center md:ml-[60px] md:mt-[40px] mb-7 ">
             
-            <p className="text-2xl md:text-5xl font-semibold px-7 md:px-0 ">
+            <p className="text-2xl md:text-5xl font-semibold px-7 md:px-0 text-center md:text-start ">
               Most Affordable Web Development Services
             </p>
             <p className="mt-5 text-lg  text-center md:text-start px-9 md:px-0">
@@ -67,9 +67,9 @@ function Services() {
         </div>
         {/* digital marketing */}
         <div>
-          <div className="flew-full mt-5 md:ml-[100px] flex-col-reverse md:flex-row">
+          <div className="mt-5 md:ml-[100px] flex flex-col md:flex-row">
             {/* content */}
-            <div className="w-[100%] md:w-[600px]  text-center md:ml-[50px] md:mt-[40px]">
+            <div className="w-[100%] md:w-[800px] text-center md:text-start md:ml-[50px] md:mt-[40px]">
               <p className=" mt-10 md:mt-1 text-xl md:text-3xl font-semibold px-5 md:px-0">
                 Cost-Effective Digital Marketing Solutions
               </p>
@@ -118,7 +118,7 @@ function Services() {
             {/* images */}
             <div className="  md:ml-[50px]">
               <img
-                className=" w-[200px] md:w-[400px] mr-auto ml-auto md:mr-0 md:ml-0 rounded-lg"
+                className=" w-[300px] md:w-[400px] mr-auto ml-auto md:mr-0 md:ml-0 rounded-lg"
                 src="./images/dig-marketing.png"
                 alt=""
               />

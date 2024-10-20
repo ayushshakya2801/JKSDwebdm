@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function Growth() {
   return (
-    <div className="flex flex-col w-full mt-5 md:ml-[100px]   md:flex-row">
+    <div className="flex flex-col w-full mt-5 md:ml-[100px] md:flex-row">
       {/* content */}
       <div className="w-[100%] md:w-[600px] md:ml-[50px] mt-[40px]">
         <p className=" text-3xl md:text-5xl text-center md:text-start font-semibold px-1 md:px-0 ">Grow Your Business Online</p>
@@ -61,7 +61,7 @@ function Growth() {
         {/* explore button */}
         <div className=" mt-7 md:mt-16 mx-2">
         <Link to="/contact">
-          <button className="flex items-center mr-auto ml-auto md:items-start bg-white hover:bg-[#ffa75c] text-[#ffa75c] hover:text-white py-2 px-4 rounded-sm border border-[#ffa75c]">
+          <button className="flex items-center mr-auto ml-auto md:ml-0 bg-white hover:bg-[#ffa75c] text-[#ffa75c] hover:text-white py-2 px-4 rounded-sm border border-[#ffa75c]">
             Contact Now
             <FontAwesomeIcon icon={faPhone} className="ml-2" />
           </button>
@@ -69,7 +69,7 @@ function Growth() {
         </div>
       </div>
       {/* images */}
-      <div className="mr-auto ml-auto  w-[200px] my-10 md:w-[650px] md:ml-[50px] ">
+      <div className="mr-auto ml-auto w-[300px] my-0 md:my-10 md:w-[650px] md:ml-[50px] ">
         <img className=" rounded-lg " src="./gif/growth.gif" alt="gif" />
       </div>
     </div>

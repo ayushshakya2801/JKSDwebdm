@@ -58,10 +58,10 @@ function ReviewSection() {
   }, [selectedReview]);
 
   return (
-    <div className="flex items-center py-10 bg-gray-50">
+    <div className="  flex items-center py-10 bg-gray-50">
       <div className="flex">
         {/* Left Profile Image Section */}
-        <div className="flex flex-col space-y-2 items-start w-[800px] ml-[150px] px-[50px] py-[30px] bg-white shadow-lg rounded-lg">
+        <div className=" hidden md:block flex-col space-y-2 items-start w-[800px] md:ml-[150px] px-[50px] py-[30px] bg-white shadow-lg rounded-lg">
           <h1 className="text-5xl font-bold text-gray-800 pb-1">
             What Our Clients Say About Us
           </h1>
@@ -96,7 +96,7 @@ function ReviewSection() {
         </div>
 
         {/* Right Review Display Section */}
-        <div className="ml-10 w-96 bg-white shadow-lg rounded-lg flex flex-col relative">
+        <div className="md:ml-10 h-[450px] md:h-auto md:w-96 bg-white shadow-lg rounded-lg flex flex-col relative">
           <h2 className="text-xl font-bold text-gray-800 mb-4 pl-8 pt-8">
             {reviews[selectedReview].name}
           </h2>
@@ -108,9 +108,8 @@ function ReviewSection() {
             <img
               src={reviews[selectedReview].image}
               alt={reviews[selectedReview].name}
-              className="w-[200px] h-auto mb-5"
+              className=" w-[100px] md:w-[200px] h-auto mt-[140px]  md:mt-0 mb-[20px] md:mb-5"
             />
-
             {/* Visit Site Button */}
             <a
               href={reviews[selectedReview].website}

@@ -68,7 +68,7 @@ function ContactUs() {
   return (
     <>
       <div className="w-full overflow-hidden">
-        <div>
+        <div className="hidden lg:block">
           <ContactHome />
         </div>
         <div>
@@ -214,8 +214,8 @@ function ContactUs() {
         <div className=" md:flex justify-center items-center md:mr-10 bg-gray-300  w-full  overview-hidden">
 
   <iframe
+  className="w-full md:w-[75%]"
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.117954875751!2d77.374172774094!3d28.626226684369538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5d4a8d2c129%3A0xc7e167387b2afd44!2sJKSD%20Infotech%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1725521303176!5m2!1sen!2sin"
-    width="75%"
     height="450"
     style={{
       border: '12px solid white', // Adds red border

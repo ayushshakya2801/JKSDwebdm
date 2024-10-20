@@ -18,10 +18,10 @@ function About() {
 
       {/* Content */}
       <div className="relative z-10 text-center flex flex-col items-center justify-center">
-        <h1 className="text-5xl text-white font-semibold px-[400px]">
+        <h1 className="text-2xl  md:text-5xl text-white font-semibold md:px-[400px]">
           A Place That Helps Growth of Your Business
         </h1>
-        <p className="mt-5 text-white max-w-5xl px-5">
+        <p className="mt-5 text-white text-sm  md:max-w-5xl px-3 md:px-5">
           A Place That Helps Growth of Your Business is where innovation meets
           strategy to drive your success. We provide tailored solutions that
           enhance your brand's presence, attract your target audience, and boost

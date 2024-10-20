@@ -4,7 +4,7 @@ import AboutHome from "./AboutHome";
 function AboutUs() {
   return (
     <>
-    <div>
+    <div className="hidden lg:block">
       <AboutHome />
     </div>
     
@@ -13,7 +13,7 @@ function AboutUs() {
       <div className="bg-blue-50 md:flex justify-center items-center ">
         <div>
           <img
-            src="./public/AboutUs img/aboutuspic (4).png"
+            src="./AboutUs img/aboutuspic (4).png"
             alt="professional image"
             className=" pt-5 m-10 w-[300px] md:w-[680px]    "
           />
@@ -47,11 +47,11 @@ function AboutUs() {
          
        
        <div>
-        <img src="./public/AboutUs img/mission .png"
+        <img src="./AboutUs img/mission .png"
         alt ="mission pic for desktop "
         className="hidden  md:block  md:w-full"
         />
-        <img src="./public/AboutUs img/mission vertical.png"
+        <img src="./AboutUs img/mission vertical.png"
         alt ="mission vertical pic for  mobile user  "
         className="block md:hidden  md:w-full"
         />
@@ -83,7 +83,7 @@ function AboutUs() {
 
        </div>
        <div>
-        <img src="./public\AboutUs img/vision (1).png"
+        <img src="./AboutUs img/vision (1).png"
         className="m-10 ml-[50px] w-[280px] md:w-[400px] md:mt-10   lg:w-[450px]  "
         />
        </div>
@@ -102,7 +102,7 @@ function AboutUs() {
      <div className="flex flex-col   md:w-80 h-96 items-center p-7  bg-slate-100 shadow-lg rounded-3xl">
           <div className="w-32 h-32 mb-4 items-center ">
             <img
-              src=".\FounderImage\jitesh_mathur.jpg"
+              src="./FounderImage/jitesh_mathur.jpg"
               className="w-full h-full rounded-full object-cover"
             />
           </div>
@@ -122,7 +122,7 @@ function AboutUs() {
             rel="noopener noreferrer"
           >
             <img
-              src=".\Icons\linkedin.png"
+              src="./Icons/linkedin.png"
               alt="LinkedIn"
               className="w-8 mt-5 md:h-8 object-cover rounded-lg hover:opacity-80"
             />
@@ -133,7 +133,7 @@ function AboutUs() {
         <div className="flex flex-col  md:w-80 h-96 items-center p-7  bg-slate-100 shadow-lg rounded-3xl">
           <div className="w-32 h-32 mb-4 items-center ">
             <img
-              src=".\FounderImage\swapnil mishra.jpg"
+              src="./FounderImage/swapnil mishra.jpg"
               className="w-full h-full rounded-full object-cover"
             />
           </div>
@@ -153,7 +153,7 @@ function AboutUs() {
             rel="noopener noreferrer"
           >
             <img
-              src=".\Icons\linkedin.png"
+              src="./Icons/linkedin.png"
               alt="LinkedIn"
               className="w-8 mt-5  h-8 object-cover rounded-lg hover:opacity-80"
             />
@@ -165,7 +165,7 @@ function AboutUs() {
         <div className="flex flex-col md:w-80 h-96 items-center p-7  bg-slate-100 shadow-lg rounded-3xl">
           <div className="w-32 h-32 mb-4 items-center ">
             <img
-              src=".\FounderImage\mr._devanshh.jpg"
+              src="./FounderImage/mr._devanshh.jpg"
               className="w-full h-full rounded-full object-cover"
             />
           </div>
@@ -185,7 +185,7 @@ function AboutUs() {
             rel="noopener noreferrer"
           >
             <img
-              src=".\Icons\linkedin.png"
+              src="./Icons/linkedin.png"
               alt="LinkedIn"
               className="w-8 mt-5  h-8 object-cover rounded-lg hover:opacity-80"
             />
@@ -196,7 +196,7 @@ function AboutUs() {
         <div className="flex flex-col md:w-80 h-96 items-center p-7  bg-slate-100 shadow-lg rounded-3xl">
           <div className="w-32 h-32 mb-4 items-center ">
             <img
-              src=".\FounderImage\fariha_khan.jpg"
+              src="./FounderImage/fariha_khan.jpg"
               className="w-full h-full rounded-full object-cover"
             />
           </div>
@@ -216,7 +216,7 @@ function AboutUs() {
             rel="noopener noreferrer"
           >
             <img
-              src=".\Icons\linkedin.png"
+              src="./Icons/linkedin.png"
               alt="LinkedIn"
               className="w-8 mt-5  h-8 object-cover rounded-lg hover:opacity-80"
             />
