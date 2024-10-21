@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function Growth() {
   return (
-    <div className="flex flex-col w-full mt-5 md:ml-[100px] md:flex-row">
+    <div className="flex flex-col w-full md:ml-[100px] md:flex-row">
       {/* content */}
       <div className="w-[100%] md:w-[600px] md:ml-[50px] mt-[40px]">
         <p className=" text-3xl md:text-5xl text-center md:text-start font-semibold px-1 md:px-0 ">Grow Your Business Online</p>

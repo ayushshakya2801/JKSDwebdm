@@ -21,7 +21,7 @@ function Services() {
           {/* content */}
           <div className="w-[100%] md:w-[800px] text-center md:ml-[60px] md:mt-[40px] mb-7 ">
             
-            <p className="text-2xl md:text-5xl font-semibold px-7 md:px-0 text-center md:text-start ">
+            <p className="text-2xl md:text-3xl font-semibold px-7 md:px-0 text-center md:text-start ">
               Most Affordable Web Development Services
             </p>
             <p className="mt-5 text-lg  text-center md:text-start px-9 md:px-0">
