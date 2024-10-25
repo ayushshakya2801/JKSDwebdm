@@ -82,13 +82,11 @@ function Footer() {
                 <Link to="contact">Contact Us</Link>
               </li>
               <li>
-                <Link to="faq">FAQ</Link>
+                <Link to="Blogs">Blogs</Link>
               </li>
             </div>
             <div>
-              <li>
-                <Link to="jobassistance">Job Assistance</Link>
-              </li>
+              
               <li>
                 <Link to="privacypolicy">Privacy Policy</Link>
               </li>
